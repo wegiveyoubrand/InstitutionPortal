@@ -1,0 +1,40 @@
+.modalResponse {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  background-color: hsla(258, 83%, 14%, 0.85);
+  color: hsl(0, 29%, 92%);
+  transition: 0.3s ease-in-out;
+  transform: scale(0);
+
+  &.open {
+    transform: scale(1);
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+  }
+}

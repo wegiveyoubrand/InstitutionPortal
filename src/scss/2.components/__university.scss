@@ -1,0 +1,21 @@
+.university {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
+
+  &__image {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+}

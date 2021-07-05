@@ -1,0 +1,39 @@
+input {
+  width: 100%;
+  border: 1px dotted;
+  padding: 10px 20px;
+}
+
+
+input,
+button,
+select {
+  padding: 15px 20px;
+  font-size: 1rem;
+  width: 100%;
+
+  outline: none;
+  border: none;
+
+  @media (max-width: 520px) {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
+
+input,
+select {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  font-size: 12px;
+  margin-left: auto;
+  padding: 5px 15px;
+  background-color: green;
+}
