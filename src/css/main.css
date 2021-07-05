@@ -268,7 +268,7 @@ label {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
 }
@@ -681,8 +681,8 @@ a {
   display: grid;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 12px;
-  padding: 20px;
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 :root {
