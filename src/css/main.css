@@ -257,7 +257,7 @@ label {
 }
 
 .university {
-  height: 120px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,7 +268,7 @@ label {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
 }
