@@ -11,10 +11,28 @@ var myInit = {
 
 let myRequest = new Request("/institutes/data/universities/Federal.json");
 
-fetch(myRequest)
-  .then(function (res) {
-    return res.json();
-  })
-  .then(function (data) {
+fetch(myRequest).then((res) => {
+  return res.json().then((data) => {
     console.log(data);
+    if (data.length > 0) {
+      var temp = "";
+
+      //   start for loop
+
+      data.forEach((u) => {
+        temp += ` 
+            <div class="university">
+                <div class="university__image">
+                    <img src="../public/images/JAMB_Logo.jpg" alt="" />
+                </div>
+                <div class="university__name">${u.name}</div>
+            </div>
+        `;
+      });
+
+      //   close for loop
+
+      document.querySelector("#FederalUniversities").innerHTML = temp;
+    }
   });
+});
