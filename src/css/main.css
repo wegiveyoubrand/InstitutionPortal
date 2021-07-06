@@ -266,6 +266,15 @@ label {
   z-index: 1000;
 }
 
+.navigation-tabs .tab {
+  padding: 10px;
+}
+
+.navigation-tabs .tab.active {
+  background-color: #eeee;
+  font-weight: 700;
+}
+
 .university {
   height: auto;
   display: -webkit-box;
@@ -685,7 +694,6 @@ a {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  padding: 10px;
 }
 
 .navigation-tabs .nav > div {
