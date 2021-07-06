@@ -59,5 +59,35 @@
     },
     "Established-Date": "",
     "Population": ""
+  },
+  {
+    "name": "university of lagos",
+    "short": "UNILAG",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "Location": {
+      "landmark": "",
+      "state": "Enugu"
+    },
+    "Campus": {
+      "Nsukka": "",
+      "Enugu": ""
+    },
+    "Established-Date": "",
+    "Population": ""
+  },
+  {
+    "name": "university of ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "Location": {
+      "landmark": "",
+      "state": "Enugu"
+    },
+    "Campus": {
+      "Nsukka": "",
+      "Enugu": ""
+    },
+    "Established-Date": "",
+    "Population": ""
   }
 ]
