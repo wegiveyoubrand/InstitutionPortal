@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(179, 179, 179);
+  font-size: 16px;
+  /* font-weight: 100; */
+  font-family: "Poppins";
+}
+form {
+  background-color: rgb(21, 255, 60);
+
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 3px 5px #555;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.form-wrapper {
+  padding: 10px;
+}
+.form-wrapper h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgba(8, 8, 8, 0.522);
+  letter-spacing: 2px;
+}
+
+label {
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  font-family: inherit;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  font-family: inherit;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(3, 12, 5);
+  color: aliceblue;
+}

@@ -3,91 +3,216 @@
     "name": "University of Jos",
     "short": "UNIJOS",
     "logo": "https://icecube-eu-282.icedrive.io/thumbnail?p=LQPscl6ni51Q3Oa%2BH9bCcYvkA4RnIapVZNs1RcnnQhMmqbk83qIYmNPoZfVwhw0Pn%2BQB7noYD2GbfUMpdq%2BBv4M9Js6HMpFHkAdC7bDXzRCJr5rsK2Xm8%2BNp1rj7WN6C&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "state": "Jos",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
   },
   {
     "name": "University of Lagos",
     "short": "UNILAG",
     "logo": "https://icecube-eu-829.icedrive.io/thumbnail?p=FJ4YqH9ka43G30jOY0YpVrNjQPZ9d1c1XxhzHgmS6R7Bk9OsrGr%2Bxspq7CQKFXGsYN1e7UDKZfWq4wpXtQ%2BeLuMQFEKdeYG3xj5J%2FrJHSm7Ddq54fg3J6TD7cXz1nkDu&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "state": "Lagos",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
   },
-
   {
     "name": "Ahmadu Bello University",
     "short": "ABU",
     "logo": "https://icecube-eu-282.icedrive.io/thumbnail?p=Ph6Y6qesmgblgG4%2FRAJiX3tr%2Bv8xI7ljs4lt4kZCeazKAAykvejCee6EXvRwYuk%2BrNGSl25Kqh%2BiAi2zpN57I%2BAtEuivIk4h%2Fjcy74HyT1fchPZ6eFikQiU3bUqyAQDl&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "state": "Kaduna",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
   },
   {
     "name": "University of Nigeria, Nsukka",
     "short": "UNN",
     "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "state": "Enugu",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
   },
   {
-    "name": "university of lagos",
+    "name": "University of Lagos",
     "short": "UNILAG",
     "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "Location": "Lagos",
+    "Date-Established": "",
+    "Population": "",
+    "cutt-off": "180"
   },
   {
-    "name": "university of ibadan",
+    "name": "University of Ibadan",
     "short": "UI",
     "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
-    "Location": {
-      "landmark": "",
-      "state": "Enugu"
-    },
-    "Campus": {
-      "Nsukka": "",
-      "Enugu": ""
-    },
-    "Established-Date": "",
-    "Population": ""
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
+  },
+  {
+    "name": "University of Ibadan",
+    "short": "UI",
+    "logo": "https://icecube-eu-285.icedrive.io/thumbnail?p=7IwArEl4kerDHAJehZ5pGmXtOFNR0KXYdKCDzbiT0HwRbucZhUCgyEtJFS8mBDLP8pUHB9XnZn50S675Qi4KvkEtFdexbq1Yo8zBMRjZLXEz5BfQqhWULTTqDHeik3QW&w=1280&h=1280&m=cropped",
+    "state": "Ibadan",
+    "Date-Established": "",
+    "Population": "",
+    "cut-off": "180"
   }
 ]
