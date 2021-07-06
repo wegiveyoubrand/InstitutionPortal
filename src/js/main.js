@@ -23,7 +23,7 @@ fetch(myRequest).then((res) => {
         temp += ` 
             <div class="university">
                 <div class="university__image">
-                    <img src="../public/images/JAMB_Logo.jpg" alt="" />
+                    <img src="${u.logo}" alt="" />
                 </div>
                 <div class="university__name">${u.name}</div>
             </div>
