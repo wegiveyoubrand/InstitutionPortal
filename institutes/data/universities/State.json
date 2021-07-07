@@ -1,9 +1,28 @@
 [
   {
-    "name": "Enugu State University of Technology",
+    "name": "Abia State University, Uturu",
+    "short": "ABSU",
+    "logo": "https://icecube-eu-830.icedrive.io/download?p=tePXp_2Kxg6cj2GfjYrhDtllUZR2Xga9j7HYv34Or2KyE9O5SUr72z9E7Oq.k5wI8KUmS4EUZkMw.4IN_c.kTM05j3zuB7vg1TjxznMkcCHM649P_kJ899pyTMTWWAuYAK8TiGSZXWhVuuUKfztMjv4C6aGDhG5KFGN4r87LcRzMzUOYHNjek3pL1I6ayns_",
+
+    "Location": "Lagos",
+    "Date-Established": "",
+    "Population": "",
+    "cutt-off": "180"
+  },
+  {
+    "name": "Adekunle Ajasin University, Akungba",
+    "short": "AAUA",
+    "logo": "https://icecube-eu-830.icedrive.io/download?p=tePXp_2Kxg6cj2GfjYrhDtllUZR2Xga9j7HYv34Or2LGQLA0s_IOM4UbFoi908nu8KUmS4EUZkMw.4IN_c.kTM05j3zuB7vg1TjxznMkcCHL1Y0HqwSAlqSAKfT0mFTOg7hM.emxKdCYd_3yrH8_bmBWF4wj8_x7mo6NMUVMIomUazeHioLW8FHRUeseyDyW",
+    "Location": "Lagos",
+    "Date-Established": "",
+    "Population": "",
+    "cutt-off": "180"
+  },
+  {
+    "name": "Enugu State University of Sceince and Technology",
     "short": "ESUT",
     "logo": "https://icecube-eu-282.icedrive.io/download?p=tePXp_2Kxg6cj2GfjYrhDtllUZR2Xga9j7HYv34Or2LNvyB.fGfSswTYN5dWrg6W8KUmS4EUZkMw.4IN_c.kTM05j3zuB7vg1TjxznMkcCHyYCzpBxj_aLWkiO5AFDwjHWkBwTDozCq3jbn7c7CH2y0iMQph0DX6ruEl7ZXPjg67bwHkVu1YD1OwjsI4M53NzlvtTbQ211U75Ml3Mza70A--",
-    "Location": "Lagos",
+    "Location": "Enugu",
     "Date-Established": "",
     "Population": "",
     "cutt-off": "180"
