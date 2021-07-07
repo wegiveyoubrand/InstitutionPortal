@@ -49,17 +49,33 @@
       <!-- ===== NAVIGATION TABS ===== -->
       <div class="navigation-tabs">
         <nav class="nav">
-          <div class="tab active">Federal</div>
-          <div class="tab">State</div>
-          <div class="tab">Private</div>
+          <div class="tab active" data-for-tab="1">Federal</div>
+          <div class="tab" data-for-tab="2">State</div>
+          <div class="tab" data-for-tab="3">Private</div>
         </nav>
-      </div>
 
-      <!-- ===== UNIVERSITIES ===== -->
-      <div class="container">
-        <!-- FEDERAL -->
-        <div class="universities" id="FederalUniversities">
-          
+        <!-- ===== UNIVERSITIES ===== -->
+        <div class="content">
+          <!-- FEDERAL -->
+
+          <div
+            class="universities tab-content active"
+            id="FederalUniversities"
+            data-tab="1"
+          ></div>
+          <!-- STATE -->
+          <div
+            class="universities tab-content"
+            id="StateUniversities"
+            data-tab="2"
+          ></div>
+          <!-- PRIVATE -->
+          <div
+            class="universities tab-content"
+            id="PrivateUniversities"
+            data-tab="3"
+          ></div>
+        </div>
       </div>
 
       <!-- =====SEARCH FUNCTION ===== -->
@@ -102,6 +118,7 @@
         </div>
       </div>
     </footer>
+    <script src="../src/js/modules/_tab.js" type="module"></script>
 
     <script src="../src/js/main.js" type="module" defer></script>
   </body>
