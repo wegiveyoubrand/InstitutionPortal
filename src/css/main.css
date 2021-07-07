@@ -130,9 +130,9 @@ label {
   bottom: 1rem;
   right: 1rem;
   z-index: 1000;
-  background-color: #fff;
-  height: 2.5rem;
-  width: 2.5rem;
+  background-color: var(--baseColor);
+  height: 2.8rem;
+  width: 2.8rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +145,11 @@ label {
           align-items: center;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-function i {
+  color: #fff;
+  font-size: 1.8rem;
 }
 
 .menu {
