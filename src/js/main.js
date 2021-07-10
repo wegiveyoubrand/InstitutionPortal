@@ -21,12 +21,12 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
 
       data.forEach((u) => {
         temp += ` 
-            <div class="university">
-                <div class="university__image">
-                    <img src="${u.logo}" alt="" />
-                </div>
-                <div class="university__name">${u.name}</div>
+          <div class="university">
+            <div class="university__image">
+              <img src="${u.logo}" alt="" />
             </div>
+            <div class="university__name">${u.name}</div>
+          </div>
         `;
       });
 

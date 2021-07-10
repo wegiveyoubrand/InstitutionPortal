@@ -4,9 +4,10 @@
     "short": "UNIJOS",
     "logo": "https://icecube-eu-282.icedrive.io/thumbnail?p=LQPscl6ni51Q3Oa%2BH9bCcYvkA4RnIapVZNs1RcnnQhMmqbk83qIYmNPoZfVwhw0Pn%2BQB7noYD2GbfUMpdq%2BBv4M9Js6HMpFHkAdC7bDXzRCJr5rsK2Xm8%2BNp1rj7WN6C&w=1280&h=1280&m=cropped",
     "state": "Jos",
-    "Date-Established": "",
+    "DateEstablished": "1960",
     "Population": "",
-    "cut-off": "180"
+    "cutOff": "180",
+    "verified": "verified"
   },
   {
     "name": "University of Lagos",
@@ -24,7 +25,8 @@
     "state": "Kaduna",
     "Date-Established": "",
     "Population": "",
-    "cut-off": "180"
+    "cut-off": "180",
+    "verified": "verified"
   },
   {
     "name": "University of Nigeria, Nsukka",
@@ -33,7 +35,8 @@
     "state": "Enugu",
     "Date-Established": "",
     "Population": "",
-    "cut-off": "180"
+    "cut-off": "180",
+    "verified": "verified"
   },
   {
     "name": "Obafemi Awolowo University",
@@ -150,7 +153,8 @@
     "state": "Ibadan",
     "Date-Established": "",
     "Population": "",
-    "cut-off": "180"
+    "cut-off": "180",
+    "verified": "verified"
   },
   {
     "name": "Federal University, Birnin Kebbi ",
