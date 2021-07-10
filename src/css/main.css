@@ -5,6 +5,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .brand__logo {
@@ -131,9 +132,9 @@ label {
   bottom: 1rem;
   right: 1rem;
   z-index: 1000;
-  background-color: var(--baseColor);
-  height: 2.8rem;
-  width: 2.8rem;
+  background-color: #fff;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -149,8 +150,8 @@ label {
 }
 
 .search-function i {
-  color: #fff;
-  font-size: 1.8rem;
+  color: var(--baseColor);
+  font-size: 1.6rem;
 }
 
 .menu {
@@ -306,7 +307,7 @@ label {
 
 .navigation-tabs .nav {
   position: fixed !important;
-  top: 3rem;
+  top: 4rem;
   width: 100%;
   background-color: #fff;
   -webkit-box-shadow: 0 5px 5px var(--soften__baseColor);
@@ -348,7 +349,8 @@ label {
       -ms-flex-direction: column;
           flex-direction: column;
   line-height: 1.2;
-  background-color: #fff;
+  background-color: #221359;
+  color: #fff;
   padding: 20px 10px;
   border-radius: 5px;
   height: auto;
@@ -372,7 +374,7 @@ label {
   height: 30px;
   width: 30px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .university__image img {
@@ -384,13 +386,14 @@ label {
 
 .university__name {
   font-weight: 700;
-  color: #666;
+  color: #fff;
+  letter-spacing: .5px;
 }
 
 .university__location {
   font-size: 12px;
   font-weight: 700;
-  opacity: .7;
+  opacity: 0.7;
   line-height: 1.4;
   margin-bottom: 20px;
 }
@@ -411,7 +414,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  height: 3rem;
+  height: 4rem;
   background-color: white;
   -webkit-box-shadow: 0 0px 15px var(--soften__baseColor);
           box-shadow: 0 0px 15px var(--soften__baseColor);
