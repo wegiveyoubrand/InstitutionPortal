@@ -350,6 +350,7 @@ label {
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
   padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 .university__brand {
