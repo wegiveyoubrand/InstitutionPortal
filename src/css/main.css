@@ -751,6 +751,16 @@ footer {
           box-sizing: border-box;
 }
 
+::-moz-selection {
+  color: none;
+  background: none;
+}
+
+::selection {
+  color: none;
+  background: none;
+}
+
 html {
   width: 100%;
   height: 100%;
