@@ -740,6 +740,10 @@ footer {
   padding: unset;
   -webkit-box-sizing: unset;
           box-sizing: unset;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 * {
