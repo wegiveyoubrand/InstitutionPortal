@@ -139,7 +139,7 @@ label {
   right: 1rem;
   z-index: 1000;
   background-color: #fff;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,7 +161,7 @@ label {
   color: var(--baseColor);
   font-size: 1.25rem;
   font-weight: 500;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .search-function:hover {
