@@ -6,7 +6,8 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  font-size: 1.35rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .brand i {
