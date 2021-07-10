@@ -251,7 +251,7 @@ label {
   transition: 0.3s ease-in-out;
 }
 
-.institution:hover > * {
+.institution:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
