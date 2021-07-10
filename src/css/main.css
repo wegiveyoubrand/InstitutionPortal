@@ -249,6 +249,11 @@ label {
   border-radius: 5px;
 }
 
+.institution h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
 .institution:nth-child(1) {
   background-color: #221359;
   color: #fff;
