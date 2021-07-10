@@ -340,14 +340,7 @@ label {
 
 .university {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   line-height: 1.2;
   background-color: #221359;
   color: #fff;
@@ -372,10 +365,13 @@ label {
 }
 
 .university__image {
-  height: 30px;
-  width: 30px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
   margin: auto;
   margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 5px 10px;
+          box-shadow: 0 0 5px 10px;
 }
 
 .university__image img {
@@ -388,7 +384,7 @@ label {
 .university__name {
   font-weight: 700;
   color: #fff;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .university__location {
