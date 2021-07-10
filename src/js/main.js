@@ -26,6 +26,7 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
               <img src="${u.logo}" alt="" />
             </div>
             <div class="university__name">${u.name}</div>
+            <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
           </div>
         `;
       });

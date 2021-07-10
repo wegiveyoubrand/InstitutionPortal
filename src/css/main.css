@@ -316,7 +316,7 @@ label {
 }
 
 .navigation-tabs .tab {
-  padding: 10px;
+  padding: 15PX 10px;
 }
 
 .navigation-tabs .tab.active {
@@ -356,6 +356,7 @@ label {
   height: auto;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
+  padding-bottom: 3rem;
 }
 
 .university__brand {
@@ -374,7 +375,7 @@ label {
   height: 30px;
   width: 30px;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .university__image img {
@@ -406,7 +407,7 @@ label {
 }
 
 .university__verified i {
-  color: rgba(37, 4, 7, 0.85);
+  color: #fcfcfc;
 }
 
 header {
@@ -620,7 +621,7 @@ main {
   position: relative;
   min-height: 100%;
   height: auto;
-  top: 3rem;
+  top: 4rem;
 }
 
 .form-container {
