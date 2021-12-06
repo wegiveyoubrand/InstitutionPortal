@@ -18,7 +18,7 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
       var temp = "";
 
       //   start for loop
-
+      //
       data.forEach((u) => {
         temp += ` 
           <div class="university">
