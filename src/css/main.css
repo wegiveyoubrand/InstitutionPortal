@@ -134,8 +134,9 @@ label {
   right: 1rem;
   z-index: 1000;
   background-color: #fff;
+  border: 2px solid rgba(34, 19, 89, 0.05);
   color: #221359;
-  padding: 10px 20px;
+  padding: 10px 1rem;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,8 +148,6 @@ label {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 15px rgba(2, 4, 61, 0.192);
-          box-shadow: 0 0 15px rgba(2, 4, 61, 0.192);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -163,6 +162,7 @@ label {
 .search-function:hover {
   background: #221359;
   color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.05);
 }
 
 .search-function:hover i {
@@ -389,8 +389,8 @@ label {
   padding: 1rem;
   border-radius: 0.5rem;
   height: auto;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.055);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.055);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   opacity: 1;
