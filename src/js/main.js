@@ -26,8 +26,10 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
               <img src="${u.logo}" alt="" />
             </div>
             <div class="university__name">${u.name}</div>
+            <div class="university__name"><span>Location:</span> ${u.state}</div>
+            <div class="university__name"><span>Latest news:</span><a href="">latest news loading...</a></div>
             <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
-          </div>
+           <button>Learn more</button> </div>
         `;
       });
 
@@ -48,12 +50,15 @@ const StateUniversitiesData = fetch(StateData).then((res) => {
 
       data.forEach((u) => {
         temp += ` 
-            <div class="university">
-                <div class="university__image">
-                    <img src="${u.logo}" alt="" />
-                </div>
-                <div class="university__name">${u.name}</div>
+          <div class="university">
+            <div class="university__image">
+              <img src="${u.logo}" alt="" />
             </div>
+            <div class="university__name">${u.name}</div>
+            <div class="university__name"><span>Location:</span> ${u.state}</div>
+            <div class="university__name"><span>Latest news:</span><a href="">latest news loading...</a></div>
+            <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
+           <button>Learn more</button> </div>
         `;
       });
 
