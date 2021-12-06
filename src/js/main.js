@@ -28,7 +28,8 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
             <div class="university__name">${u.name}</div>
             <div class="university__name"><span>Location:</span> ${u.state}</div>
             <div class="university__name"><span>Latest news:</span><a href="">latest news loading...</a></div>
-            <div class="university__name"><span>Website:</span> ${u.website}</div>
+            <div class="university__name"><span>Website:</span> <a href="${u.website}"></a>
+            </div>
             <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
            <button>Learn more</button> </div>
         `;
