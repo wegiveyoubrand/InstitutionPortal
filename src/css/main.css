@@ -507,8 +507,7 @@ aside {
   display: -ms-flexbox;
   display: flex;
   background-color: var(--soften__baseColor);
-  z-index: -1;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
