@@ -134,6 +134,7 @@ label {
   right: 1rem;
   z-index: 1000;
   background-color: #fff;
+  color: #221359;
   padding: 10px 20px;
   border-radius: 20px;
   display: -webkit-box;
@@ -146,8 +147,8 @@ label {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 15px rgba(2, 4, 61, 0.679);
-          box-shadow: 0 0 15px rgba(2, 4, 61, 0.679);
+  -webkit-box-shadow: 0 0 15px rgba(2, 4, 61, 0.192);
+          box-shadow: 0 0 15px rgba(2, 4, 61, 0.192);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -160,10 +161,8 @@ label {
 }
 
 .search-function:hover {
-  background: var(--soft__baseColor);
+  background: #221359;
   color: #fff;
-  -webkit-box-shadow: 0 0 15px rgba(247, 247, 252, 0.679);
-          box-shadow: 0 0 15px rgba(247, 247, 252, 0.679);
 }
 
 .search-function:hover i {
@@ -267,7 +266,7 @@ label {
 
 .institution:hover {
   -webkit-transform: scale(0.95);
-  transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .institution h2 {
@@ -392,6 +391,16 @@ label {
   height: auto;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.165);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.university:hover {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+  cursor: pointer;
+  opacity: 0.98;
 }
 
 .university span {
