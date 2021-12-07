@@ -96,3 +96,8 @@ const PrivateUniversitiesData = fetch(PrivateData).then((res) => {
     }
   });
 });
+
+var cl = new cloudinary.Cloudinary({
+  cloud_name: "appheart-technology",
+  secure: true,
+});
