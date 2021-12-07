@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "cloudinary-core": "^2.12.0"
+  }
+}
