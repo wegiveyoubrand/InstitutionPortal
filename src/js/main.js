@@ -27,11 +27,11 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
             </div>
             <div class="university__name">${u.name}</div>
             <div class="university__name"><span>Location:</span> ${u.state}</div>
-            <div class="university__name"><span>Latest news:</span><a href="">latest news loading...</a></div>
+            <div class="university__name"><span>Ratings:</span><a href=""> 4.1</a></div>
             <div class="university__name"><span>Website:</span> <a href="${u.website}">${u.website}</a>
             </div>
             <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
-           <button>Learn more</button> </div>
+           <button>Open</button> </div>
         `;
       });
 
@@ -97,7 +97,13 @@ const PrivateUniversitiesData = fetch(PrivateData).then((res) => {
   });
 });
 
-var cl = new cloudinary.Cloudinary({
-  cloud_name: "appheart-technology",
-  secure: true,
+/* TODO: Enable to save caches for offline mode
+ */
+
+document.querySelector(".brand").addEventListener("click", () => {
+  location.href = "/";
+});
+
+document.querySelector(".search-function").addEventListener("click", () => {
+  location.href = "/apps/JAMBCBTCenters.html";
 });

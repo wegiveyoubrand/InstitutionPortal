@@ -24,38 +24,28 @@
     <!-- === FAVICON === -->
     <link
       rel="shortcut icon"
-      href="./public/images/favicon.ico"
+      href="/public/images/favicon.ico"
       type="image/x-icon"
     />
 
     <!-- === SPREADSHEET === -->
-    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
 
     <!-- ===== END OF EXTERNAL LINKS ===== -->
     <title>Nigeria Tetiary Instituions - (NTI)</title>
   </head>
 
-  <body id="home">
+  <body id="JAMBCBTCenters">
     <!-- ===== HEADER ===== -->
     <header>
-      <div class="brand active">
+      <div class="brand">
         <div class="brand__logo">
           <i class="material-icons">home</i>
         </div>
-        <div class="brand__name">
-          Nigeria Institutions' <span> Portal</span>
-        </div>
+        <div class="brand__name">Institution <span> Portal</span></div>
       </div>
 
-      <div class="nav">
-        <ul class="menu">
-          <li class="menu-item"><a href="">About us</a></li>
-          <li class="menu-item"><a href="">API for Developers</a></li>
-          <li class="menu-item"><a href="">Rate your School</a></li>
-          <li class="menu-item"><a href="">Sign up</a></li>
-        </ul>
-      </div>
-      <div class="menu-toggle">
+      <div class="menu">
         <i class="material-icons">menu</i>
       </div>
     </header>
@@ -66,41 +56,27 @@
 
     <!-- ===== MAIN ===== -->
     <main class="container">
-      <h1 class="container-title">
-        Welcome to the 100% facts portal for all institutions in Nigeira
-      </h1>
       <!-- ===== INSTITUTIONS ===== -->
-      <div class="grid-system institutions">
-        <div class="grid-item institution">
-          <a href="./institutes/Universities.html">
-            <h2>169</h2>
-            <p>Universities</p>
-          </a>
-        </div>
-        <div class="grid-item institution">
-          <a href="#">
-            <h2>152</h2>
-            <p>Polytechnics</p></a
-          >
-        </div>
-        <div class="grid-item institution">
-          <a href="#">
-            <h2>69</h2>
-            <p>Vocational Technical Institutes</p>
-          </a>
-        </div>
-        <div class="grid-item institution">
-          <a href="#">
-            <h2>78</h2>
-            <p>Colleges of Education</p>
-          </a>
-        </div>
-        <div class="grid-item institution">
-          <a href="#">
-            <h2>88</h2>
-            <p>Monotechnics</p>
-          </a>
-        </div>
+      <div class="form-container">
+        <h2 class="form-title">JAMB CBT CENTERS</h2>
+        <form action="" class="form">
+          <div class="input-container">
+            <label for="">State</label>
+            <select name="" id="">
+              <option value="">Abuja</option>
+              <option value="">Lagos</option>
+              <option value="">Enugu</option>
+              <option value="">Kogi</option>
+              <option value="">Ebonyi</option>
+              <option value="">Others...</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="">Location</label>
+            <input type="text" placeholder=" based on user selection. . ."/>
+          </div>
+          <button>Query search</button>
+        </form>
       </div>
     </main>
 
@@ -142,6 +118,6 @@
       </div>
     </footer>
 
-    <script src="./src/js/main.js" type="module" defer></script>
+    <script src="/src/js/main.js" type="module" defer></script>
   </body>
 </html>
