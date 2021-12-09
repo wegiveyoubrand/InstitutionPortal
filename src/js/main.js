@@ -28,8 +28,7 @@ const FederalUniversitiesData = fetch(FederalData).then((res) => {
             <div class="university__name">${u.name}</div>
             <div class="university__name"><span>Location:</span> ${u.state}</div>
             <div class="university__name"><span>Ratings:</span><a href=""> 4.1</a></div>
-            <div class="university__name"><span>Website:</span> <a href="${u.website}">${u.website}</a>
-            </div>
+            
             <div class="university__verified"><i class="material-icons">${u.verified}</i> </div>
            <button>Open</button> </div>
         `;
@@ -107,3 +106,9 @@ document.querySelector(".brand").addEventListener("click", () => {
 document.querySelector(".search-function").addEventListener("click", () => {
   location.href = "/apps/JAMBCBTCenters.html";
 });
+
+setInterval(() => {
+  document.querySelectorAll(".container-title > div").forEach((div) => {
+    div.classList.toggle("active");
+  });
+}, 5000);

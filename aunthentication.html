@@ -24,21 +24,21 @@
     <!-- === FAVICON === -->
     <link
       rel="shortcut icon"
-      href="/public/images/favicon.ico"
+      href="./public/images/favicon.ico"
       type="image/x-icon"
     />
 
     <!-- === SPREADSHEET === -->
-    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
 
     <!-- ===== END OF EXTERNAL LINKS ===== -->
-    <title>Nigeria Tetiary Instituions - (NTI)</title>
+    <title>Instituions Portal of Nigeria - (IPN)</title>
   </head>
 
-  <body id="home">
+  <body id="authenticationPage">
     <!-- ===== HEADER ===== -->
     <header>
-      <div class="brand active">
+      <div class="brand">
         <div class="brand__logo">
           <i class="material-icons">home</i>
         </div>
@@ -57,11 +57,9 @@
           <li class="menu-item"><a href="">About us</a></li>
           <li class="menu-item"><a href="">API for Developers</a></li>
           <li class="menu-item">
-            <a href="/institutes/Universities.html" class="active"
-              >Rate your School</a
-            >
+            <a href="/institutes/Universities.html">Rate your School</a>
           </li>
-          <li class="menu-item"><a href="/aunthentication.html">Sign up</a></li>
+          <li class="menu-item"><a href="" class="active">Sign up</a></li>
         </ul>
       </div>
       <div class="menu-toggle">
@@ -71,44 +69,28 @@
 
     <!-- ===== MAIN ===== -->
     <main class="container">
-      <!-- ===== NAVIGATION TABS ===== -->
-      <div class="navigation-tabs">
-        <nav class="nav">
-          <div class="tab active" data-for-tab="1">Federal</div>
-          <div class="tab" data-for-tab="2">State</div>
-          <div class="tab" data-for-tab="3">Private</div>
-        </nav>
-        <a href="">latest news loading...</a>
-        <!-- ===== UNIVERSITIES ===== -->
-        <div class="content">
-          <!-- FEDERAL -->
-
-          <div
-            class="universities tab-content active"
-            id="FederalUniversities"
-            data-tab="1"
-          ></div>
-          <!-- STATE -->
-          <div
-            class="universities tab-content"
-            id="StateUniversities"
-            data-tab="2"
-          ></div>
-          <!-- PRIVATE -->
-          <div
-            class="universities tab-content"
-            id="PrivateUniversities"
-            data-tab="3"
-          ></div>
+      <h2>Lets Personalize your choice for next time!</h2>
+      <!-- ===== INSTITUTIONS ===== -->
+      <div class="forms">
+        <div class="form-container">
+          <h3 class="form-title">Create an account</h3>
+          <form action="" class="form">
+            <div class="input-container">
+              <label for="">email</label><input type="text" />
+            </div>
+            <div class="input-container">
+              <label for="">phone number</label><input type="text" />
+            </div>
+            <button>Create account</button>
+          </form>
+          <a href="">or login instead</a>
         </div>
-      </div>
-
-      <!-- =====SEARCH FUNCTION ===== -->
-      <div class="search-function">
-        <i class="material-icons">search</i><span>search</span>
       </div>
     </main>
 
+    <div class="search-function">
+      <i class="material-icons">search</i><span>search</span>
+    </div>
     <!-- ===== FOOTER ===== -->
     <footer>
       <div class="wrapper">
@@ -143,8 +125,7 @@
         </div>
       </div>
     </footer>
-    <script src="../src/js/modules/_tab.js" type="module"></script>
 
-    <script src="../src/js/main.js" type="module" defer></script>
+    <script src="./src/js/main.js" type="module" defer></script>
   </body>
 </html>
