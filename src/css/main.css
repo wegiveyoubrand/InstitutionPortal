@@ -24,6 +24,7 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
+  line-height: 1.1;
 }
 
 .brand::after {
@@ -112,9 +113,6 @@ button {
 
 input {
   width: 100%;
-  border: 1px dotted;
-  padding: 10px 20px;
-  padding: 15px 20px;
   font-size: 1rem;
   width: 100%;
   outline: none;
@@ -204,9 +202,15 @@ label {
   padding: 0.5rem 1rem;
   white-space: nowrap;
   border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.menu a:hover, .menu a:focus {
+.menu a:hover, .menu a:focus, .menu a.active {
   background-color: rgba(0, 0, 139, 0.8);
   color: #fff;
 }
@@ -707,16 +711,64 @@ main {
 }
 
 .form-container {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+.form-container .form {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  color: #333;
+  -webkit-backdrop-filter: blur(20);
+          backdrop-filter: blur(20);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.form-container .form-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.form-container .form input,
+.form-container .form select {
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+.form-container .form button {
+  padding: 0.5rem;
+  border-radius: 0;
+  background-color: #3598dc;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.form-container .form button:hover, .form-container .form button:focus {
+  border-color: #3598dc;
+  background-color: transparent;
+  color: #333;
 }
 
 .wrapper {
@@ -925,89 +977,18 @@ a {
   background-repeat: no-repeat;
 }
 
-#JAMBCBTCenters .form-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 2rem;
-  padding-top: 4rem;
-}
-
-#JAMBCBTCenters .form-container .form {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  color: #333;
-  -webkit-backdrop-filter: blur(20);
-          backdrop-filter: blur(20);
-  background-color: rgba(0, 0, 0, 0.02);
-}
-
-#JAMBCBTCenters .form-container .form-title {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  font-weight: 300;
-  letter-spacing: 5px;
-}
-
-#JAMBCBTCenters .form-container .form input,
-#JAMBCBTCenters .form-container .form select {
-  border-radius: 0;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
-}
-
-#JAMBCBTCenters .form-container .form button {
-  padding: 0.5rem;
-  border-radius: 0;
-  background-color: #3598dc;
-  border: 1px solid transparent;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-#JAMBCBTCenters .form-container .form button:hover, #JAMBCBTCenters .form-container .form button:focus {
-  border-color: #3598dc;
-  background-color: transparent;
-  color: #333;
-}
-
 .container {
   padding: 2rem 0;
 }
 
 .container-title {
+  position: relative;
   padding: 2rem;
-  margin: 2rem;
   width: 100%;
-  max-width: 1080px;
-  margin: auto;
   text-align: center;
   line-height: 1.2;
-  height: auto;
-  min-height: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 40vh;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   font-weight: 700;
   color: #f3f3f3f8;
   letter-spacing: 1px;
@@ -1016,9 +997,35 @@ a {
   -webkit-backdrop-filter: blur(20);
           backdrop-filter: blur(20);
   border-radius: 0.5rem;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
+}
+
+.container-title > div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 1080px;
+  margin: auto;
+  opacity: 0;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.container-title > div.active {
+  opacity: 1;
 }
 
 @media (max-width: 580px) {
@@ -1027,11 +1034,53 @@ a {
   }
 }
 
-#home {
+#home,
+#authenticationPage {
   height: auto;
   background-image: url("/public/images/newBG.jpg");
+  background-color: rgba(15, 15, 15, 0.1);
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #110e4f;
+}
+
+#authenticationPage main.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#authenticationPage form {
+  text-align: left;
+  background-color: rgba(2, 2, 2, 0.2);
+  color: #fff;
+}
+
+#authenticationPage form label {
+  font-weight: 500;
+}
+
+#authenticationPage .form-container a {
+  display: block;
+  padding: 0.7rem;
+  font-weight: 700;
+  color: #000;
+}
+
+#authenticationPage .form-container a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
