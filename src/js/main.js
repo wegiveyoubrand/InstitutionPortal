@@ -11,6 +11,8 @@ let FederalData = new Request("/institutes/data/universities/Federal.json");
 let StateData = new Request("/institutes/data/universities/State.json");
 let PrivateData = new Request("/institutes/data/universities/Private.json");
 
+const loader = document.querySelector(".loader");
+
 const FederalUniversitiesData = fetch(FederalData).then((res) => {
   return res.json().then((data) => {
     console.log(data);
@@ -100,6 +102,7 @@ const PrivateUniversitiesData = fetch(PrivateData).then((res) => {
  */
 
 document.querySelector(".brand").addEventListener("click", () => {
+  loader.classList.remove("hidden");
   location.href = "/";
 });
 
@@ -112,3 +115,13 @@ setInterval(() => {
     div.classList.toggle("active");
   });
 }, 5000);
+
+window.addEventListener("load", function () {
+  loader.classList.add("hidden");
+});
+
+document.querySelectorAll("header a").forEach((pageRequest) => {
+  pageRequest.addEventListener("click", () => {
+    loader.classList.remove("hidden");
+  });
+});

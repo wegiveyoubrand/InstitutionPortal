@@ -1020,8 +1020,8 @@ a {
   max-width: 1080px;
   margin: auto;
   opacity: 0;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .container-title > div.active {
@@ -1082,5 +1082,49 @@ a {
 
 #authenticationPage .form-container a:hover {
   text-decoration: underline;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.loader img {
+  width: 100px;
+}
+
+.loader.hidden {
+  -webkit-animation: fadeOut 1s;
+          animation: fadeOut 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 /*# sourceMappingURL=main.css.map */
