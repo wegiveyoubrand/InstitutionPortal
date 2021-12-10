@@ -381,20 +381,19 @@ label {
 
 .navigation-tabs {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.navigation-tabs .nav {
   position: fixed !important;
   top: 5rem;
   width: 100%;
+  padding: 0 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fff;
+}
+
+.navigation-tabs .nav {
+  width: 100%;
   -webkit-box-shadow: 0 5px 5px var(--soften__baseColor);
           box-shadow: 0 5px 5px var(--soften__baseColor);
   z-index: 1000;
@@ -421,11 +420,12 @@ label {
 
 .tab-content {
   position: absolute;
-  top: 3rem;
+  top: 7rem;
   height: 100%;
   min-height: 100%;
   width: 100%;
   display: none !important;
+  left: 0;
 }
 
 .tab-content.active {
@@ -521,13 +521,13 @@ header {
   -webkit-box-shadow: 0 0px 15px var(--soften__baseColor);
           box-shadow: 0 0px 15px var(--soften__baseColor);
   color: #000;
-  border-bottom: 2px solid var(--soften__baseColor);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.02);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -836,6 +836,17 @@ section button {
   font-family: inherit;
 }
 
+section:nth-child(2) {
+  background-color: #0a5efa;
+}
+
+section:nth-child(2) .section-title {
+  color: #fff;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  padding: 2rem 0;
+}
+
 section.news {
   background-color: var(--soften__baseColor);
 }
@@ -977,26 +988,21 @@ a {
   background-repeat: no-repeat;
 }
 
-.container {
-  padding: 2rem 0;
-}
-
 .container-title {
   position: relative;
   padding: 2rem;
   width: 100%;
   text-align: center;
   line-height: 1.2;
-  height: 40vh;
+  height: 90vh;
   width: 100%;
-  font-weight: 700;
+  font-weight: 100;
   color: #f3f3f3f8;
   letter-spacing: 1px;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   background-color: rgba(2, 2, 2, 0.7);
   -webkit-backdrop-filter: blur(20);
           backdrop-filter: blur(20);
-  border-radius: 0.5rem;
 }
 
 .container-title > div {
@@ -1030,7 +1036,7 @@ a {
 
 @media (max-width: 580px) {
   .container-title {
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
 }
 
